@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Select service</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <ion-card (tap)="selectType('sender')">
+    <img src="/img/sender.jpg"/>
+    <div class="card-title">Send Package</div>
+    <div class="card-subtitle">23 drivers</div>
+  </ion-card>
+
+  <ion-card (tap)="selectType('driver')">
+    <img src="/img/deliver.jpg"/>
+    <div class="card-title">Deliver Package</div>
+    <div class="card-subtitle">64 propositions</div>
+  </ion-card>
+</ion-content>
